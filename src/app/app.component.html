@@ -1,0 +1,186 @@
+<!--The whole content below can be removed with the new code.-->
+
+<h2 style="background-color:orange">
+  <div style="text-align:center">
+    <h1>
+        <p style="color:red;">!!Welcome to MathsQuiz!!</p>
+    </h1>
+  </div>
+
+<div style="text-align:center">
+
+<html>
+<body>
+
+<img src="http://s3.amazonaws.com/www.mathnasium.com/upload/831/images/Math.jpg" alt="Mountain View" style="width:304px;height:228px;">
+
+</body>
+</html>
+
+</div>
+<html>
+<body>
+
+
+  <h2 style="background-color:orange">
+    <div style="text-align:center">
+    <h2></h2>
+
+<h1>
+  <p style="color:red;">scoreboard</p>
+</h1>
+</div>
+</h2>
+
+    <div style="text-align:center">
+
+<table>
+  <tr>
+    <th>name</th>
+    <th>Score</th>
+    <th>Time Remaining</th>
+  </tr>
+  <tr *ngFor="let x of scoreboard">
+    <td>{{x.name}}</td>
+    <td>{{x.score}}</td>
+    <td>{{x.t}}</td>
+  </tr>
+  </table>
+
+  <div style="text-align:center">
+
+  <h1>
+    <p style="color:red;">Rules</p>
+  </h1>
+
+<div style="text-align:center">
+<p>
+  .2 minutes to answer as man quesions as possible.
+</p>
+<p>
+.20 questions in total.
+</p>
+<p>
+  .dont cheat.
+</p>
+<p>
+  .have fun.
+</p>
+</div>
+
+<div style="text-align:center">
+
+  <html>
+  <head>
+  <title>Font Awesome Icons</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+  <i class="fa fa-gear fa-spin" style="font-size:24px"></i>
+
+  </body>
+  </html>
+
+<html>
+<body>
+
+<img src="http://www.clker.com/cliparts/g/i/C/2/J/Y/math-signs.svg" alt="Mountain View" style="width:304px;height:228px;">
+
+</body>
+</html>
+</div>
+
+<div style="text-align:center">
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!--
+  <h1>{{title}}</h1><h2>{{hero}} details!</h2>
+
+  <h1>{{title}}</h1>
+  <h2>{{hero.name}} details!</h2>
+  <div><label>id: </label>{{hero.id}}</div>
+
+  <div><label>name: </label>{{hero.name}}</div>
+
+
+  <div>
+    <label>name: </label>
+    <input [(ngModel)]="hero.name" placeholder="name">
+  </div>
+
+
+  <h2>my heroes</h2>
+  <ul class="heroes">
+    <li *ngFor="let hero of heroes">
+      <span class="badge">{{hero.id}}</span> {{hero.name}}
+    </li>
+  </ul> -->
+<h3>your score is = {{score}}</h3>
+
+<h3>Time Remaining = {{t}}</h3>
+
+<form action="/action_page.php" method="get">
+  <input (click)="multiply()" type="checkbox" name="symbol" value="multiply" [disabled]="clickmultiply" >multiply<br>
+  <input (click)="division()" type="checkbox" name="symbol" value="divide" [disabled]="clickdivide" >divide<br>
+</form>
+
+<button (click)="questions()"><h1>Click to begin quiz</h1></button>
+
+  <div style="text-align:center">
+
+     <p style="text-align:center" *ngFor = "let q of questionlist;let i = index">
+      {{q}} = <input [(ngModel)]="studAns[i]" name="studAns">
+    </p>
+
+    <div style="text-align:center">
+      <button (click)="marks()" type="button" name="mark" ><h2>Mark</h2></button>
+    </div>
+
+  </div>
+
+  <div class="container">
+    <ul class="pagination">
+    </ul>
+
+
+   {{show}}
+  <br>
+  <div *ngIf="show">Text to show</div>
+  </div>
+</body>
+</html>
+
+<html>
+<head>
+<title>Font Awesome Icons</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<i class="fa fa-gear fa-spin" style="font-size:24px"></i>
+
+</body>
+</html>
